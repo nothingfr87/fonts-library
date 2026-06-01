@@ -1,10 +1,18 @@
 :root {
-  --bg: #1e1e2e;
-  --cards-bg: #252538;
+  --bg: #181825;
+  --cards-bg: #1e1e2e;
   --border: #313244;
   --text: #cdd6f4;
-  --accent-color: #b4befe;
+  --accent-color: #cba6f7;
   --muted-text: #a6adc8;
+}
+body.light {
+  --bg: #e6e9ef;
+  --cards-bg: #eff1f5;
+  --border: #ccd0da;
+  --text: #4c4f69;
+  --accent-color: #8839ef;
+  --muted-text: #5c5f77;
 }
 * {
   margin: 0;
@@ -17,6 +25,18 @@ body {
   font-family: "Cairo", sans-serif;
   padding: 2rem 1rem;
   line-height: 1.6;
+  transition: all ease 0.3s;
+}
+.icon {
+  position: absolute;
+  top: 20px;
+  right: 60px;
+  cursor: pointer;
+  background: var(--cards-bg);
+  color: var(--accent-color);
+  padding: 10px;
+  border-radius: 50%;
+  transition: all ease 0.2s;
 }
 header {
   text-align: center;
