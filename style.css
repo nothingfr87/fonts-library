@@ -5,6 +5,7 @@
   --text: #cdd6f4;
   --accent-color: #cba6f7;
   --muted-text: #a6adc8;
+  --accent-text: #b4befe;
 }
 body.light {
   --bg: #e6e9ef;
@@ -111,6 +112,15 @@ h4 {
   word-wrap: break-word;
   font-size: 1.2rem;
 }
+.font-card .font-preview textarea {
+  background: var(--cards-bg);
+  outline: none;
+  color: var(--accent-text);
+  font-size: 1.2rem;
+  border: none;
+  width: 100%;
+  resize: none;
+}
 .font-card .download-button {
   background: var(--cards-bg);
   padding: 4px 19px;
@@ -132,51 +142,54 @@ h4 {
   font-size: 0.7rem;
 }
 
-.cairo-preview {
+.cairo-preview textarea {
   font-family: "Cairo";
 }
-.ibm-arabic-preview {
+.ibm-arabic-preview textarea {
   font-family: "IBM Plex Sans Arabic";
 }
-.amiri-preview {
+.amiri-preview textarea {
   font-family: "Amiri";
 }
-.tajawal-preview {
+.tajawal-preview textarea {
   font-family: "Tajawal";
 }
-.lalezar-preview {
+.lalezar-preview textarea {
   font-family: "lalezar";
 }
-.alex-preview {
+.alex-preview textarea {
   font-family: "Alexandria";
 }
-.inter-preview {
+.nastaliq-preview textarea {
+  font-family: "Noto Nastaliq Urdu";
+}
+.inter-preview textarea {
   font-family: "Inter";
 }
-.mont-preview {
+.mont-preview textarea {
   font-family: "Montserrat";
 }
-.poppins-preview {
+.poppins-preview textarea {
   font-family: "Poppins";
 }
-.jetbrains-preview {
+.jetbrains-preview textarea {
   font-family: "JetBrains Mono";
 }
-.iosevka-preview {
+.iosevka-preview textarea {
   font-family: "Iosevka Charon";
 }
-.shoulders-preview {
+.shoulders-preview textarea {
   font-family: "Big Shoulders";
 }
-.playfair-preview {
+.playfair-preview textarea {
   font-family: "Playfair Display";
 }
-.abril-preview {
+.abril-preview textarea {
   font-family: "Abril Fatface";
 }
-.baskerville-preview {
+.baskerville-preview textarea {
   font-family: "Libre Baskerville";
 }
-.garamond-preview {
+.garamond-preview textarea {
   font-family: "Cormorant Garamond";
 }
