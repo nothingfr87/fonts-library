@@ -5,7 +5,6 @@
   --text: #cdd6f4;
   --accent-color: #cba6f7;
   --muted-text: #a6adc8;
-  --accent-text: #b4befe;
 }
 body.light {
   --bg: #e6e9ef;
@@ -115,7 +114,7 @@ h4 {
 .font-card .font-preview textarea {
   background: var(--cards-bg);
   outline: none;
-  color: var(--accent-text);
+  color: var(--text);
   font-size: 1.2rem;
   border: none;
   width: 100%;
