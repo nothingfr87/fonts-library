@@ -28,6 +28,12 @@
 
 ---
 
+## مظهر الموقع
+
+![preview](preview-dark.png)
+![preview](preview-light.png)
+
+---
 ##  الموقع
 
 يمكنك زيارة الموقع من [هنا](https://nothingfr87.github.io/fonts-library)
